@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">安卓音频测试工具</string>
+    <string name="record_audio">录制音频测试</string>
+    <string name="play_audio">播放音频测试</string>
+    <string name="audio_source">音频源：</string>
+    <string name="stream_type">流类型：</string>
+    <string name="sample_rate">采样率：</string>
+    <string name="num_channels">声道数：</string>
+    <string name="file_name">文件名</string>
+    <string name="input_file_name">请输入录制文件名：</string>
+    <string name="output_file_name">请选择播放文件：</string>
+    <string name="file_path">/sdcard/</string>
+    <string name="start">开始</string>
+    <string name="stop">结束</string>
+    <string-array name="AudioSources">
+        <item>default</item>
+        <item>mic</item>
+        <item>voice_uplink</item>
+        <item>voice_downlink</item>
+        <item>voice_call</item>
+        <item>camcorder</item>
+        <item>voice_recognition</item>
+        <item>voice_communication</item>
+    </string-array>
+    <string-array name="StreamTypes">
+        <item>stream_voice_call</item>
+        <item>stream_system</item>
+        <item>stream_ring</item>
+        <item>stream_music</item>
+        <item>stream_alarm</item>
+        <item>stream_notification</item>
+        <item>stream_bluetooth_sco</item>
+        <item>stream_system_enforced</item>
+        <item>stream_dtmf</item>
+        <item>stream_tts</item>
+    </string-array>
+    <string-array name="SampleRates">
+        <item>48000</item>
+        <item>44100</item>
+        <item>32000</item>
+        <item>24000</item>
+        <item>22050</item>
+        <item>16000</item>
+        <item>11025</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="AudioChannels">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
